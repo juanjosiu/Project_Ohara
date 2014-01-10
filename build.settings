@@ -1,0 +1,34 @@
+
+settings =
+{
+	orientation =
+	{
+		default ="portrait",
+		supported =
+		{
+			"portrait","portraitUpsideDown"
+		},
+	},
+
+	iphone =
+	{
+		plist =
+		{
+			UIAppFonts = {"KINKEE.ttf"}
+			UIApplicationExitsOnSuspend = true,
+			UIPrerenderedIcon = true,
+			UIStatusBarHidden = true
+
+		},
+	},
+	android =
+	{
+		plist = 
+		{
+			UIAppFonts = {"KINKEE.ttf"}
+			--UIStatusBarHidden=true,
+		}, 
+
+	}, 
+
+}
